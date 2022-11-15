@@ -6,7 +6,7 @@ package com.iliassk.dev
 class App {
     val greeting: String
         get() {
-            return "Hello to the AnagramChecker!"
+            return "Welcome to the AnagramChecker!"
         }
 }
 
@@ -20,6 +20,6 @@ fun main() {
 
     val checker = AnagramChecker()
     val result = checker.areAnagrams(word1, word2)
-    if(result) println("The 2 words are anagrams.")
+    if (result) println("The 2 words are anagrams.")
     else println("The 2 words are not anagrams.")
 }

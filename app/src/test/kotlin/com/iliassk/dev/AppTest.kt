@@ -7,9 +7,10 @@ import io.kotest.matchers.shouldBe
 import kotlin.test.Test
 
 class AppTest {
-    @Test fun `should have a greeting`() {
+    @Test
+    fun `should have a greeting`() {
         val classUnderTest = App()
-        classUnderTest.greeting shouldBe "Hello World!"
+        classUnderTest.greeting shouldBe "Welcome to the AnagramChecker!"
     }
 }
 
